@@ -1,17 +1,3 @@
-$(window).resize(function() {
-    var height = $(window).height();
-    var width = $(window).width();
-
-    if (width > height) {
-        // Landscape
-        $("#mode").text("LANDSCAPE");
-    } else {
-        // Portrait
-        $("#mode").text("PORTRAIT");
-    }
-
-});
-
 (function() {
   function $(id) {
     return document.getElementById(id);
